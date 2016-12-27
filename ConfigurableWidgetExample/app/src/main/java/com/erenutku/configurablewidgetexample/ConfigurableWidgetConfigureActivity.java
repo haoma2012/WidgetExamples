@@ -28,6 +28,7 @@ public class ConfigurableWidgetConfigureActivity extends Activity {
         // activity stuffs
         setContentView(R.layout.activity_widget_configure);
         etUrl = (EditText) findViewById(R.id.etUrl);
+         btAdd = (Button) findViewById(R.id.btAdd);
         // These steps are seen in the previous examples
         widgetManager = AppWidgetManager.getInstance(this);
         views = new RemoteViews(this.getPackageName(), R.layout.configurable_widget);
